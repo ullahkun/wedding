@@ -69,14 +69,6 @@ body {
 		'Segoe UI Emoji';
 }
 
-.bg-img-parallax {
-  background-image: url("https://images.unsplash.com/photo-1515339760107-1952b7a08454?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 /*
 Grouping content
 ================
@@ -600,6 +592,14 @@ html{
   font-family: 'Courgette', cursive;
   font-family: 'Playfair Display', serif;
   font-family: 'Tangerine', cursive;
+}
+
+.bg-img-parallax {
+  background-image: url("https://images.unsplash.com/photo-1515339760107-1952b7a08454?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
